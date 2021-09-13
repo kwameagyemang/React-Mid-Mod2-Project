@@ -8,7 +8,6 @@ export default class Forms extends Component {
                 <button className="button-add" type="submit">
                     Add
                 </button>
-
             </form>
            
         )
