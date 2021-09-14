@@ -3,45 +3,39 @@ const Data = [
     {
     
     "date": "septemmber 14th",
-    
     "time": "9.00AM",
-    
+    "ToDo": "Class",
     "location": "cincinnati"
     
     },
     {
     
-     "date": "septemmber 15th",
-        
+    "date": "septemmber 15th",  
     "time": "9.00AM",
-        
+    "ToDo": "Class",   
     "location": "cincinnati"
-        
+
     },
     {
     
     "date": "septemmber 16th",
-        
     "time": "9.00AM",
-        
+    "ToDo": "Class",
     "location": "cincinnati"
         
     },
     {
     
     "date": "septemmber 17th",
-        
     "time": "9.00AM",
-        
+    "ToDo": "Class",
     "location": "cincinnati"
         
     },
     {
     
-    "date": "septemmber 18th",
-        
-    "time": "9.00AM",
-        
+    "date": "septemmber 18th",  
+    "time": "9.00AM",  
     "location": "cincinnati"
         
     },

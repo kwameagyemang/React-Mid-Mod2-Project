@@ -27,17 +27,18 @@
   }
   addItem(event){
       event.preventDefault();
+      const newItem= this.state.currentItem;
+      console.log(newItem);
   }
+
     render() {
       return (
         <div className="container">
           <div className="app-wrapper">
             <div>
             <form onSubmit={this.addItem}>
-              <input type="text" placeholder="Enter a Todo..." 
-              value={this.state.currentItem.text}
-              onChange={this.handleChange}
-              className="task-input"/>
+              <input type="text" placeholder="Enter a Todo..." value={this.state.text} 
+              onChange={this.handleChange} className="task-input"/>
               <button type="submit" className="button-add">Add</button>
             </form>
             </div>
@@ -45,7 +46,7 @@
             <ul className="data">
               {this.state.data.map((data) => {
                 return (
-                  <li>{data.date} {data.time} {data.location}</li>
+                  <li>{data.date} {data.time} {data.location} {data.ToDo}</li>
                 )
               })}
             </ul>
