@@ -1,15 +1,39 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class Forms extends Component {
+class Forms extends Component {
+    state = {
+        items:[],
+        currentItem:{
+            text:'',
+            key:'',
+        }
+
+    }
+
+    handlechange = (event) => {
+        this.state({
+            currentItem:{
+                text: event.target.value,
+                key: Date.now()
+            }
+        })
+
+    }
+    addItem(event){
+        event.preventDefault();
+    }
+
     render() {
         return (
-            <form>
-                <input type="text" placeholder="Enter a Todo..." className="task-input"/>
-                <button className="button-add" type="submit">
-                    Add
-                </button>
+            <form onSubmit={this.addItem}>
+            <input type="text" placeholder="Enter a Todo..." 
+            value={this.state.currentItem.text}
+            onChange={this.handleChange}
+            className="task-input"/>
+            <button type="submit" className="button-add">Add</button>
             </form>
-           
-        )
+        );
     }
 }
+
+export default Forms;
