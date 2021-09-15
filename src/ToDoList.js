@@ -2,7 +2,7 @@ const Data = [
 
     {
     
-    "date": "septemmber 14th",
+    "date": "september 14th",
     "time": "9.00AM",
     "ToDo": "Class",
     "location": "cincinnati"
@@ -10,7 +10,7 @@ const Data = [
     },
     {
     
-    "date": "septemmber 15th",  
+    "date": "september 15th",  
     "time": "9.00AM",
     "ToDo": "Class",   
     "location": "cincinnati"
@@ -18,7 +18,7 @@ const Data = [
     },
     {
     
-    "date": "septemmber 16th",
+    "date": "september 16th",
     "time": "9.00AM",
     "ToDo": "Class",
     "location": "cincinnati"
@@ -34,26 +34,22 @@ const Data = [
     },
     {
     
-    "date": "septemmber 18th",  
+    "date": "september 18th",  
     "time": "9.00AM",  
     "location": "cincinnati"
         
     },
     {
     
-    "date": "septemmber 19th",
-        
+    "date": "september 19th",
     "time": "9.00AM",
-        
     "location": "cincinnati"
         
     },
     {
     
-    "date": "septemmber 20th",
-        
-    "time": "9.00AM",
-        
+    "date": "september 20th",  
+    "time": "9.00AM", 
     "location": "cincinnati"
         
     },
