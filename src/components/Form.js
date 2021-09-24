@@ -7,6 +7,7 @@ function Form(props) {
     const inputRef = useRef(null)
 
     // allows to focus on whatever you set as refs
+    // allows to run code every render in the dom
     useEffect(() => {
         inputRef.current.focus()
     })
