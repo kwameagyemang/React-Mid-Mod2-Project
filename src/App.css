@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+  #root {
+    display: flex;
+    justify-content: center;
+  }
  
   body {
     background: linear-gradient(to right bottom,grey, #3f3160);
@@ -14,15 +18,21 @@
     justify-content: center;
     align-items: center;
   }
-  .container {
+  .app {
     background-color: #3f3160;
-    min-width: 550px;
-    min-height: 650px;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 3px 6px 40px #000;
     margin-bottom: 10px;
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    
   }
  
   h1 {
@@ -121,4 +131,52 @@
  
   .edit-icon {
     color: #fff;
+  }
+
+  .button-quote {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+
+
+  }
+
+
+
+
+  .author{
+    float: right;
+  }
+
+  .todo-container{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+
+  }
+
+  .quote-container{
+    width: 100%;
+    font-size: 2vh;
+    margin: 1em;
+    color: rgb(186, 186, 3);
+    height: 100px;
   }

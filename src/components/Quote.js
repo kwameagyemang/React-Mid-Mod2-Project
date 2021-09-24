@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from "react"
 import axios from 'axios';
 
+
 const Quote = () => {
-  const [quote, setQuote] = useState('');
-  const [auther, setAuthor] = useState("")
+  const [quote, setQuote] = useState("");
+  const [author, setAuthor] = useState("");
   
   const quoteAPI = async () => {
     let arrayofQuotes = [];
@@ -31,11 +32,19 @@ const Quote = () => {
 
   return (
      <div className='container'>
-       {quote}
-       {/* {author} */}
-       <button onClick={quoteAPI}>GET QUOTE</button>   
+       <div > 
+       {""}
+       <button onClick={quoteAPI} className="button-quote">GET QUOTE</button > 
+       </div>
+
+       <div className="quote-container">
+       <div className="quote"><h2>{quote}</h2></div>
+         <div className="author">{author}</div>
+       </div>
+       
+       
      </div>
    );
- }
+ };
 
- export default Quote;
+ export default Quote
