@@ -32,7 +32,7 @@
     justify-content: space-between; 
     min-width: 550px;
     min-height: 650px;
-    align-items: center;
+    /* align-items: center; */
   }
  
 
@@ -79,6 +79,7 @@
     );
     color: #fff;
     text-transform: capitalize;
+    
   }
  
   .todo-input.edit {
@@ -186,7 +187,6 @@
     background-color: rgb(150, 146, 146);
     height: 50px;
     width: 100%;
-    
   }
   
   /* specificity */
@@ -196,3 +196,12 @@
     list-style: none;
   }
   
+  .about{
+    text-align: center;
+  }
+  .home{
+    text-align: center;
+  }
+  .contact{
+    text-align: center;
+  }
