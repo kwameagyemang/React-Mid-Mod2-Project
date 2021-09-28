@@ -25,16 +25,17 @@
     border-radius: 10px;
     box-shadow: 3px 6px 40px #000;
     margin-bottom: 10px;
-    width: 70vw;
+    width: 60vw;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
-
-    
+    justify-content: space-between; 
+    min-width: 550px;
+    min-height: 650px;
+    align-items: center;
   }
  
+
   h1 {
     margin: 32px 0;
     color: rgb(186, 186, 3);
@@ -180,3 +181,18 @@
     color: rgb(186, 186, 3);
     height: 100px;
   }
+
+  #nav-bar {
+    background-color: rgb(150, 146, 146);
+    height: 50px;
+    width: 100%;
+    
+  }
+  
+  /* specificity */
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
